@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     overflow-x: hidden;
+    font-family: 'Zilla Slab', serif;
 }
 .nav-bar {
     height: 50px;
@@ -52,6 +56,7 @@ body {
 }
 .title {
     font-size: 30px;
+    font-family: 'Noto Sans HK', sans-serif;
 }
 .i-sect {
     font-size: 40px;
@@ -116,6 +121,7 @@ body {
 }
 .r-sect .link a{
     color: #6d6e71;
+    font-family: 'Noto Sans HK', sans-serif;
     font-weight: bold;
 }
 .r-sect .main .desc {
@@ -123,7 +129,8 @@ body {
 }
 .c-sect {
     min-height: 200px;
-    background-color: #0b0b24;
+    background: rgb(0,21,36);
+    background: linear-gradient(90deg, rgba(0,21,36,1) 0%, rgba(7,11,42,1) 42%, rgba(2,25,29,1) 100%);
     color: white;
     padding: 50px;
 }
@@ -254,7 +261,6 @@ a:hover {
     }
     .c-sect {
         min-height: 200px;
-        background-color: #0b0b24;
         color: white;
         padding: 20px;
     }
